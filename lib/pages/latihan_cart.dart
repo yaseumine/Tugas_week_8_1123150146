@@ -59,6 +59,19 @@ class LatihanCart extends StatelessWidget {
                 ),
                 child: Text("Buat shadow dengan container"),
               ),
+              SizedBox(height: 20.0),
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(12.0),
+                  child: Text(
+                    "Card dengan border radius",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
