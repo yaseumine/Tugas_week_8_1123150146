@@ -34,6 +34,12 @@ class LatihanCart extends StatelessWidget {
                   style: TextStyle(fontSize: 16.0),
                 ),
               ),
+              Card(
+                elevation: 8,
+                color: Colors.cyan,
+                child: Text("coba elevation pada card"
+                    , style: TextStyle(fontSize: 16.0),
+              )
             ],
           ),
         ),
