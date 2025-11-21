@@ -72,6 +72,33 @@ class LatihanCart extends StatelessWidget {
                   ),
                 ),
               ),
+              Card(
+                elevation: 8,
+                child: Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        "Tentang Saya",
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 10.0),
+                      Text(
+                        "Abdul karim adalah seorang penting di zaman ini karena dia membuat banyak reformasi baik diseluh bidang apapun.",
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.grey[700],
+                          height: 1.5,
+                        ),
+                        textAlign: TextAlign.justify,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
