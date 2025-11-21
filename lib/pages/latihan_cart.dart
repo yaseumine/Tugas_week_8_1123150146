@@ -7,7 +7,7 @@ class LatihanCart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Latihan Cart")),
-      body: SingleChildScrollView(
+      body: Center(
         child: Container(
           padding: const EdgeInsets.all(20.0),
           child: Column(
