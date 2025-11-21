@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week8materi/screen/latihan_cart.dart';
+import 'package:week8materi/pages/latihan_cart.dart';
 
 void main() {
   runApp(const MyApp());

@@ -19,6 +19,7 @@ class LatihanCart extends StatelessWidget {
                   style: TextStyle(fontSize: 16.0),
                 ),
               ),
+              SizedBox(height: 20.0),
             ],
           ),
         ),
