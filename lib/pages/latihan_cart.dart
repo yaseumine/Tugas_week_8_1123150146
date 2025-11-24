@@ -263,10 +263,10 @@ class LatihanCart extends StatelessWidget {
 
                 Card(
                   elevation: 8,
-                  margin: EdgeInsets.all(16.0),
+                  margin: EdgeInsets.all(14.0),
                   color: Colors.pinkAccent,
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
