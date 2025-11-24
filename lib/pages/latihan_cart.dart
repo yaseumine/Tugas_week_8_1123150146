@@ -317,6 +317,14 @@ class LatihanCart extends StatelessWidget {
                                   fontSize: 14,
                                 ),
                               ),
+                              SizedBox(height: 4),
+                              Text(
+                                "24/2000",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
+                              ),
                             ],
                           ),
                         ],
