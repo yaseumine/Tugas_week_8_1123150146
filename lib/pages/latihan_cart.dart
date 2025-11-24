@@ -275,7 +275,7 @@ class LatihanCart extends StatelessWidget {
                             color: Colors.white,
                             size: 32,
                           ),
-                          // Contactless Icon
+
                           Icon(
                             Icons.contactless,
                             color: Colors.white,
@@ -307,7 +307,6 @@ class LatihanCart extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          // Expiry Date
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
@@ -331,7 +330,6 @@ class LatihanCart extends StatelessWidget {
 
                           SizedBox(width: 60),
 
-                          // CVV
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
@@ -348,6 +346,33 @@ class LatihanCart extends StatelessWidget {
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 16,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 24.0),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Stack(
+                            children: [
+                              Container(
+                                width: 40,
+                                height: 40,
+                                decoration: const BoxDecoration(
+                                  color: Color(0xFFEB001B),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(left: 22),
+                                width: 40,
+                                height: 40,
+                                decoration: const BoxDecoration(
+                                  color: Color(0xFFF79E1B),
+                                  shape: BoxShape.circle,
                                 ),
                               ),
                             ],
