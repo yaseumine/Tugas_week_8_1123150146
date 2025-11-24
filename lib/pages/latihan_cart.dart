@@ -260,7 +260,32 @@ class LatihanCart extends StatelessWidget {
                     ),
                   ),
                 ),
-                Card(),
+                Card(
+                  elevation: 8,
+                  margin: EdgeInsets.all(16.0),
+                  color: Colors.pinkAccent,
+                  child: Column(
+                    children: [
+                      //membuat logo credit card dan payless
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(
+                            Icons.credit_card,
+                            color: Colors.white70,
+                            size: 32,
+                          ),
+                          // Contactless Icon
+                          Icon(
+                            Icons.contactless,
+                            color: Colors.white54,
+                            size: 32,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
