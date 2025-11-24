@@ -292,7 +292,7 @@ class LatihanCart extends StatelessWidget {
                           "4562 1122 4595 7852",
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 18.0,
+                            fontSize: 20.0,
                             fontWeight: FontWeight.w500,
                           ),
                         ),
@@ -380,12 +380,8 @@ class LatihanCart extends StatelessWidget {
                                 ),
                               ],
                             ),
-                          ],
-                        ),
-                        SizedBox(height: 24.0),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
+                            Spacer(),
+
                             Text(
                               "Mastercard",
                               style: TextStyle(
@@ -395,6 +391,7 @@ class LatihanCart extends StatelessWidget {
                             ),
                           ],
                         ),
+                        SizedBox(height: 24.0),
                       ],
                     ),
                   ),
