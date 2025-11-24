@@ -119,12 +119,15 @@ class LatihanCart extends StatelessWidget {
                       ),
                     ),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
                           decoration: BoxDecoration(shape: BoxShape.circle),
                           child: CircleAvatar(
                             radius: 60,
-                            backgroundImage: AssetImage(),
+                            backgroundImage: AssetImage(
+                              'assets/images/Avatar.png',
+                            ),
                           ),
                         ),
                       ],
