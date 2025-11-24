@@ -265,126 +265,138 @@ class LatihanCart extends StatelessWidget {
                   elevation: 8,
                   margin: EdgeInsets.all(16.0),
                   color: Colors.pinkAccent,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Icon(
-                            Icons.credit_card,
-                            color: Colors.white,
-                            size: 32,
-                          ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Icon(
+                              Icons.credit_card,
+                              color: Colors.white,
+                              size: 32,
+                            ),
 
-                          Icon(
-                            Icons.contactless,
-                            color: Colors.white,
-                            size: 32,
-                          ),
-                        ],
-                      ),
-                      SizedBox(height: 50.0),
-
-                      Text(
-                        "4562 1122 4595 7852",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18.0,
-                          fontWeight: FontWeight.w500,
+                            Icon(
+                              Icons.contactless,
+                              color: Colors.white,
+                              size: 32,
+                            ),
+                          ],
                         ),
-                      ),
-                      SizedBox(height: 20.0),
+                        SizedBox(height: 50.0),
 
-                      Text(
-                        "Aulia Yasmin Maharani",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18.0,
-                          fontWeight: FontWeight.w500,
+                        Text(
+                          "4562 1122 4595 7852",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
-                      ),
-                      SizedBox(height: 25),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
-                              Text(
-                                "Expiry Date",
-                                style: TextStyle(
-                                  color: Colors.white70,
-                                  fontSize: 14,
-                                ),
+                        SizedBox(height: 20.0),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Aulia Yasmin Maharani",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w500,
                               ),
-                              SizedBox(height: 4),
-                              Text(
-                                "24/2000",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 16,
-                                ),
-                              ),
-                            ],
-                          ),
+                            ),
 
-                          SizedBox(width: 60),
+                            Stack(
+                              children: [
+                                Container(
+                                  width: 40,
+                                  height: 40,
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFFEB001B),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                                Container(
+                                  margin: const EdgeInsets.only(left: 22),
+                                  width: 40,
+                                  height: 40,
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFFF79E1B),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
 
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
-                              Text(
-                                "CVV",
-                                style: TextStyle(
-                                  color: Colors.white70,
-                                  fontSize: 14,
+                        SizedBox(height: 25),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: const [
+                                Text(
+                                  "Expiry Date",
+                                  style: TextStyle(
+                                    color: Colors.white70,
+                                    fontSize: 14,
+                                  ),
                                 ),
-                              ),
-                              SizedBox(height: 4),
-                              Text(
-                                "277",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 16,
+                                SizedBox(height: 4),
+                                Text(
+                                  "24/2000",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                  ),
                                 ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      SizedBox(height: 24.0),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Stack(
-                            children: [
-                              Container(
-                                width: 40,
-                                height: 40,
-                                decoration: const BoxDecoration(
-                                  color: Color(0xFFEB001B),
-                                  shape: BoxShape.circle,
+                              ],
+                            ),
+
+                            SizedBox(width: 60),
+
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: const [
+                                Text(
+                                  "CVV",
+                                  style: TextStyle(
+                                    color: Colors.white70,
+                                    fontSize: 14,
+                                  ),
                                 ),
-                              ),
-                              Container(
-                                margin: const EdgeInsets.only(left: 22),
-                                width: 40,
-                                height: 40,
-                                decoration: const BoxDecoration(
-                                  color: Color(0xFFF79E1B),
-                                  shape: BoxShape.circle,
+                                SizedBox(height: 4),
+                                Text(
+                                  "277",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                  ),
                                 ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 24.0),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Mastercard",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 18,
                               ),
-                            ],
-                          ),
-                          Text(
-                            "Mastercard",
-                            style: TextStyle(color: Colors.white, fontSize: 18),
-                          ),
-                        ],
-                      ),
-                    ],
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
