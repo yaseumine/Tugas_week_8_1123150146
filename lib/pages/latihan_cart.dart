@@ -260,6 +260,7 @@ class LatihanCart extends StatelessWidget {
                     ),
                   ),
                 ),
+                Card(),
               ],
             ),
           ),
