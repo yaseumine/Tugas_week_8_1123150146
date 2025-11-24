@@ -118,7 +118,17 @@ class LatihanCart extends StatelessWidget {
                         end: Alignment.bottomRight,
                       ),
                     ),
-                    child: Text("text", style: TextStyle(fontSize: 16.0)),
+                    child: Column(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(shape: BoxShape.circle),
+                          child: CircleAvatar(
+                            radius: 60,
+                            backgroundImage: AssetImage(),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
