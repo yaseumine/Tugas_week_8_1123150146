@@ -284,14 +284,24 @@ class LatihanCart extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 20.0),
+                      SizedBox(height: 50.0),
 
                       Text(
                         "4562 1122 4595 7852",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 18.0,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      SizedBox(height: 20.0),
+
+                      Text(
+                        "Aulia Yasmin Maharani",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ],
