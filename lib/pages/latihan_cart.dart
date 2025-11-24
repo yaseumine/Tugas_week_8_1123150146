@@ -325,6 +325,14 @@ class LatihanCart extends StatelessWidget {
                                   fontSize: 16,
                                 ),
                               ),
+                              SizedBox(width: 60),
+                              Text(
+                                "CVV",
+                                style: TextStyle(
+                                  color: Colors.white70,
+                                  fontSize: 14,
+                                ),
+                              ),
                             ],
                           ),
                         ],
