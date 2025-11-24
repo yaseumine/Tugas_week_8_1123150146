@@ -260,6 +260,7 @@ class LatihanCart extends StatelessWidget {
                     ),
                   ),
                 ),
+
                 Card(
                   elevation: 8,
                   margin: EdgeInsets.all(16.0),
@@ -376,6 +377,10 @@ class LatihanCart extends StatelessWidget {
                                 ),
                               ),
                             ],
+                          ),
+                          Text(
+                            "Mastercard",
+                            style: TextStyle(color: Colors.white, fontSize: 18),
                           ),
                         ],
                       ),
