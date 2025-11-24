@@ -307,9 +307,10 @@ class LatihanCart extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
+                          // Expiry Date
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
+                            children: const [
                               Text(
                                 "Expiry Date",
                                 style: TextStyle(
@@ -325,12 +326,28 @@ class LatihanCart extends StatelessWidget {
                                   fontSize: 16,
                                 ),
                               ),
-                              SizedBox(width: 60),
+                            ],
+                          ),
+
+                          SizedBox(width: 60),
+
+                          // CVV
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
                               Text(
                                 "CVV",
                                 style: TextStyle(
                                   color: Colors.white70,
                                   fontSize: 14,
+                                ),
+                              ),
+                              SizedBox(height: 4),
+                              Text(
+                                "277",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
                                 ),
                               ),
                             ],
