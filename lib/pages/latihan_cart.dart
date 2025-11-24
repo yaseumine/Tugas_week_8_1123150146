@@ -265,6 +265,7 @@ class LatihanCart extends StatelessWidget {
                   margin: EdgeInsets.all(16.0),
                   color: Colors.pinkAccent,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       //membuat logo credit card dan payless
                       Row(
@@ -272,16 +273,26 @@ class LatihanCart extends StatelessWidget {
                         children: [
                           Icon(
                             Icons.credit_card,
-                            color: Colors.white70,
+                            color: Colors.white,
                             size: 32,
                           ),
                           // Contactless Icon
                           Icon(
                             Icons.contactless,
-                            color: Colors.white54,
+                            color: Colors.white,
                             size: 32,
                           ),
                         ],
+                      ),
+                      SizedBox(height: 20.0),
+
+                      Text(
+                        "4562 1122 4595 7852",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ],
                   ),
